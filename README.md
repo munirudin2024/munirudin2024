@@ -28,21 +28,5 @@ https://github.com/anuraghazra/github-readme-stats
 -->
 
 
-### 🎮 My Gaming Corner
+[![GitHub Streak](https://streak-stats.demolab.com/?user=munirudin2024&theme=nord)](https://git.io/streak-stats)
 
-A true programmer knows how to balance code and play! Here's what I'm currently into:
-
--   **Currently Playing:** Cyberpunk 2077
--   **Favorite Genres:** RPG, Strategy, Indie
--   **Platforms:** PC 💻 | Nintendo Switch 🎮
-
----
-
-### ✨ What I'm Learning / Exploring
-
--   New framework: Svelte
--   Exploring: WebAssembly for game development
-<!--
-https://fontawesome.com/
-https://www.flaticon.com/
--->
