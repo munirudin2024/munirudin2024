@@ -35,6 +35,6 @@ https://github.com/anuraghazra/github-readme-stats
 
 
 
-### 🔥 My Coding Streak (Level Up!)
-
-[![GitHub Contrib Graph](https://github-contributor-graph.vercel.app/?username=munirudin2024&theme=dark)](https://github.com/munirudin2024)
+<p align="center">
+  <img src="https://cdn.pixabay.com/video/2021/02/15/65300-513091384_large.mp4" alt="Your Cyberpunk Entrance" width="750"/>
+</p>
