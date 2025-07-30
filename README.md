@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Deskripsi Gambar]([URL_gambar_kamu_di_internet](https://autonetmagz.com/wp-content/uploads/2018/08/2019-lamborghini-aventador-svj.jpg))
+![](https://autonetmagz.com/wp-content/uploads/2018/08/2019-lamborghini-aventador-svj.jpg)
