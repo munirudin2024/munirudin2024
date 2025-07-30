@@ -29,9 +29,13 @@ https://github.com/anuraghazra/github-readme-stats
 
 
 
-<p align="center">
-  <img src="https://cdn.pixabay.com/video/2021/02/15/65300-513091384_large.mp4" alt="Coding Workflow Animation" width="600"/>
+### ⚡ My Digital Pulse
+
+<p align="left">
+  <img src="https://spotify-recently-played-card.vercel.app/api?user=YOUR_SPOTIFY_USERNAME" alt="Spotify Now Playing" width="380" style="margin-right: 20px;"/>
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_WAKATIME_USERNAME&layout=compact&theme=dark" alt="Wakatime Stats" width="380"/>
 </p>
 
-
-
+<p align="left">
+  🎮 Saat ini beraksi di: <strong style="color: #5865F2;">[Nama Game Dari Discord Rich Presence, jika berhasil diintegrasikan]</strong>
+</p>
