@@ -28,14 +28,14 @@ https://github.com/anuraghazra/github-readme-stats
 -->
 
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=munirudin2024&theme=nord)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=munirudin2024&theme=nord)](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTZzdmQxZ2J3eTNnNXV1dHZtdmRqNXFwMGdkMG93MXFwa28wM2g0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12BYUePgtn7sis/giphy.gif)
 <p align="center">
   <img src="URL_BANNER_KAMU" alt="Your Custom Banner">
 </p>
 
 ---
 
-<h1 align="center">Halo, aku [Nama Kamu / Username Kamu] 👋</h1>
+<h1 align="center">Halo, aku [munirudin] 👋</h1>
 
 <p align="center">
   Seorang [Spesialisasi Kamu, misal: Full-Stack Developer | Game Enthusiast | UI/UX Designer] yang suka [Hobi/Minat Lain]. Aku percaya bahwa kode itu seni, dan game adalah inspirasi!
@@ -55,7 +55,7 @@ https://github.com/anuraghazra/github-readme-stats
 ### 🎮 Gaming & Hobbies
 
 <p align="left">
-  Ketika tidak ngoding, aku biasanya [Aktivitas Lain, misal: bermain game, mendengarkan musik, membaca buku fantasi]. Game favoritku saat ini adalah [Nama Game].
+  Ketika tidak ngoding, aku biasanya [Aktivitas Lain, misal: bermain game, mendengarkan musik, membaca buku fantasi]. Game favoritku saat ini adalah [mobile legend].
 </p>
 
 ---
@@ -81,4 +81,7 @@ https://github.com/anuraghazra/github-readme-stats
 
 ---
 
-**Made with ❤️ by [Nama Kamu]**
+**Made with ❤️ by [munirudin]**
+<!--
+https://www.google.com/search?q=https://rahuldkjain.github.io/github-profile-readme-generator/
+-->
