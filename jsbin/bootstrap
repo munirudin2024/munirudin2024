@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Tutorial - Munirudin</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .demo-section {
+            margin: 3rem 0;
+            padding: 2rem;
+            border-left: 4px solid #0d6efd;
+            background: #f8f9fa;
+        }
+        
+        .code-example {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        
+        .demo-box {
+            background: #e3f2fd;
+            border: 2px dashed #1976d2;
+            padding: 1rem;
+            margin: 1rem 0;
+            text-align: center;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 0.5rem;
+            border-radius: 4px;
+            border-left: 4px solid #ffc107;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-code me-2"></i>Bootstrap Tutorial
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#basics">Basics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#grid">Grid</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#components">Components</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#utilities">Utilities</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">Bootstrap 5 Tutorial</h1>
+            <p class="lead">Pelajari Bootstrap dari dasar sampai mahir dengan contoh praktis!</p>
+        </div>
+
+        <!-- 1. BOOTSTRAP BASICS -->
+        <section id="basics" class="demo-section">
+            <h2><i class="fas fa-rocket text-primary me-2"></i>1. Bootstrap Basics</h2>
+            
+            <h4>Cara Install Bootstrap:</h4>
+            <div class="code-example">
+&lt;!-- Via CDN (termudah) --&gt;
+&lt;link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+            </div>
+
+            <div class="highlight">
+                <strong>💡 Tips:</strong> Selalu tambahkan meta viewport untuk responsive design:<br>
+                <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code>
+            </div>
+
+            <h4>Container - Wadah Utama:</h4>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="code-example">
+&lt;div class="container"&gt;
+  Lebar maksimal dengan margin auto
+&lt;/div&gt;
+
+&lt;div class="container-fluid"&gt;
+  Full width (100%)
+&lt;/div&gt;
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="demo-box">
+                        <strong>Container Example</strong><br>
+                        Content di dalam container
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. GRID SYSTEM -->
+        <section id="grid" class="demo-section">
+            <h2><i class="fas fa-th text-primary me-2"></i>2. Grid System (Yang Terpenting!)</h2>
+            
+            <p><strong>Bootstrap menggunakan system 12 kolom.</strong> Ini konsep paling penting!</p>
+
+            <h4>Basic Grid:</h4>
+            <div class="code-example">
+&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-6"&gt;Setengah lebar (6/12)&lt;/div&gt;
+    &lt;div class="col-6"&gt;Setengah lebar (6/12)&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </div>
+
+            <!-- Demo Grid -->
+            <div class="row mb-3">
+                <div class="col-6">
+                    <div class="demo-box bg-primary text-white">col-6</div>
+                </div>
+                <div class="col-6">
+                    <div class="demo-box bg-success text-white">col-6</div>
+                </div>
+            </div>
+
+            <h4>Responsive Grid:</h4>
+            <div class="code-example">
+&lt;div class="row"&gt;
+  &lt;div class="col-lg-4 col-md-6 col-12"&gt;
+    Desktop: 1/3, Tablet: 1/2, Mobile: Full width
+  &lt;/div&gt;
+  &lt;div class="col-lg-4 col-md-6 col-12"&gt;Content 2&lt;/div&gt;
+  &lt;div class="col-lg-4 col-md-12 col-12"&gt;Content 3&lt;/div&gt;
+&lt;/div&gt;
+            </div>
+
+            <!-- Demo Responsive Grid -->
+            <div class="row mb-3">
+                <div class="col-lg-4 col-md-6 col-12 mb-2">
+                    <div class="demo-box bg-info text-white">lg-4 md-6 sm-12</div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-2">
+                    <div class="demo-box bg-warning text-white">lg-4 md-6 sm-12</div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 mb-2">
+                    <div class="demo-box bg-danger text-white">lg-4 md-12 sm-12</div>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>📱 Breakpoints:</strong><br>
+                • <code>col-</code> = Extra small (&lt;576px)<br>
+                • <code>col-sm-</code> = Small (≥576px)<br>
+                • <code>col-md-</code> = Medium (≥768px)<br>
+                • <code>col-lg-</code> = Large (≥992px)<br>
+                • <code>col-xl-</code> = Extra large (≥1200px)
+            </div>
+        </section>
+
+        <!-- 3. COMPONENTS -->
+        <section id="components" class="demo-section">
+            <h2><i class="fas fa-puzzle-piece text-primary me-2"></i>3. Components Populer</h2>
+
+            <!-- Buttons -->
+            <h4>Buttons:</h4>
+            <div class="code-example">
+&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-success"&gt;Success&lt;/button&gt;
+&lt;button class="btn btn-outline-danger"&gt;Outline&lt;/button&gt;
+            </div>
+            
+            <div class="mb-3">
+                <button class="btn btn-primary me-2">Primary</button>
+                <button class="btn btn-success me-2">Success</button>
+                <button class="btn btn-outline-danger me-2">Outline</button>
+                <button class="btn btn-warning btn-lg me-2">Large</button>
+                <button class="btn btn-info btn-sm">Small</button>
+            </div>
+
+            <!-- Cards -->
+            <h4>Cards:</h4>
+            <div class="code-example">
+&lt;div class="card" style="width: 18rem;"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Card Title&lt;/h5&gt;
+    &lt;p class="card-text"&gt;Card content&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Example</h5>
+                            <p class="card-text">Ini contoh card Bootstrap yang simpel dan elegant.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navbar -->
+            <h4 class="mt-4">Navbar (sudah ada di atas!):</h4>
+            <div class="code-example">
+&lt;nav class="navbar navbar-expand-lg navbar-dark bg-primary"&gt;
+  &lt;div class="container"&gt;
+    &lt;a class="navbar-brand" href="#"&gt;Brand&lt;/a&gt;
+    &lt;div class="navbar-nav"&gt;
+      &lt;a class="nav-link" href="#"&gt;Home&lt;/a&gt;
+      &lt;a class="nav-link" href="#"&gt;About&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+            </div>
+
+            <!-- Forms -->
+            <h4 class="mt-4">Forms:</h4>
+            <div class="code-example">
+&lt;div class="mb-3"&gt;
+  &lt;label class="form-label"&gt;Email&lt;/label&gt;
+  &lt;input type="email" class="form-control"&gt;
+&lt;/div&gt;
+&lt;button class="btn btn-primary"&gt;Submit&lt;/button&gt;
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" placeholder="Enter email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. UTILITIES -->
+        <section id="utilities" class="demo-section">
+            <h2><i class="fas fa-tools text-primary me-2"></i>4. Utility Classes (Magic!)</h2>
+
+            <h4>Spacing (Margin & Padding):</h4>
+            <div class="code-example">
+m-3    = margin: 1rem
+p-4    = padding: 1.5rem
+mt-2   = margin-top: 0.5rem
+mb-5   = margin-bottom: 3rem
+px-3   = padding kiri-kanan: 1rem
+my-4   = margin atas-bawah: 1.5rem
+            </div>
+
+            <div class="highlight">
+                <strong>🔢 Spacing Scale:</strong> 0, 1, 2, 3, 4, 5 (0 = 0px, 1 = 0.25rem, 2 = 0.5rem, dst...)
+            </div>
+
+            <h4>Text Utilities:</h4>
+            <div class="code-example">
+text-center     = text align center
+text-primary    = warna primary
+fw-bold         = font weight bold
+fs-1            = font size large
+text-uppercase  = UPPERCASE
+            </div>
+
+            <div class="mb-3">
+                <p class="text-center text-primary fw-bold">Text Center + Primary + Bold</p>
+                <p class="text-end text-success fs-5">Text End + Success + Large</p>
+                <p class="text-decoration-underline text-muted">Underlined + Muted</p>
+            </div>
+
+            <h4>Display & Flexbox:</h4>
+            <div class="code-example">
+d-flex              = display: flex
+justify-content-center = justify center
+align-items-center  = align center
+d-none d-md-block   = hide on mobile, show on desktop
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center bg-light" style="height: 100px;">
+                <div class="bg-primary text-white p-3 rounded">Centered with Flexbox!</div>
+            </div>
+
+            <h4>Background & Colors:</h4>
+            <div class="code-example">
+bg-primary    = background primary
+bg-success    = background success  
+text-white    = white text
+border        = add border
+rounded       = border radius
+shadow        = box shadow
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-2"><div class="bg-primary text-white p-2 text-center rounded">Primary</div></div>
+                <div class="col-2"><div class="bg-success text-white p-2 text-center rounded">Success</div></div>
+                <div class="col-2"><div class="bg-danger text-white p-2 text-center rounded">Danger</div></div>
+                <div class="col-2"><div class="bg-warning text-dark p-2 text-center rounded">Warning</div></div>
+                <div class="col-2"><div class="bg-info text-white p-2 text-center rounded">Info</div></div>
+                <div class="col-2"><div class="bg-dark text-white p-2 text-center rounded">Dark</div></div>
+            </div>
+        </section>
+
+        <!-- QUICK REFERENCE -->
+        <section class="demo-section bg-primary text-white">
+            <h2><i class="fas fa-bookmark me-2"></i>Quick Reference Cheat Sheet</h2>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>💡 Grid System:</h5>
+                    <ul>
+                        <li><code>.container</code> - Fixed width container</li>
+                        <li><code>.row</code> - Horizontal group</li>
+                        <li><code>.col-*</code> - Column width (1-12)</li>
+                        <li><code>.col-md-6</code> - Responsive column</li>
+                    </ul>
+                    
+                    <h5>🎨 Common Classes:</h5>
+                    <ul>
+                        <li><code>.btn .btn-primary</code> - Button</li>
+                        <li><code>.card</code> - Card component</li>
+                        <li><code>.navbar</code> - Navigation bar</li>
+                        <li><code>.form-control</code> - Input styling</li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-6">
+                    <h5>📏 Spacing:</h5>
+                    <ul>
+                        <li><code>.m-3</code> - Margin all sides</li>
+                        <li><code>.p-4</code> - Padding all sides</li>
+                        <li><code>.mt-2</code> - Margin top</li>
+                        <li><code>.px-3</code> - Padding left-right</li>
+                    </ul>
+                    
+                    <h5>🎯 Display:</h5>
+                    <ul>
+                        <li><code>.d-flex</code> - Flexbox</li>
+                        <li><code>.justify-content-center</code> - Center horizontal</li>
+                        <li><code>.text-center</code> - Center text</li>
+                        <li><code>.d-none .d-md-block</code> - Responsive hide/show</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO INTEGRATION -->
+        <section class="demo-section">
+            <h2><i class="fas fa-rocket text-success me-2"></i>Cara Apply ke Portfolio Anda</h2>
+            
+            <div class="alert alert-success">
+                <h5><i class="fas fa-check-circle me-2"></i>Portfolio Anda sudah menggunakan Bootstrap!</h5>
+                <p class="mb-0">Code portfolio yang sudah saya buatkan menggunakan Bootstrap 5. Sekarang Anda bisa:</p>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-edit text-primary fa-3x mb-3"></i>
+                            <h5>Modifikasi Grid</h5>
+                            <p>Ubah layout dengan mengatur <code>col-*</code> classes</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-palette text-warning fa-3x mb-3"></i>
+                            <h5>Ganti Warna</h5>
+                            <p>Pakai <code>bg-*</code> dan <code>text-*</code> untuk styling cepat</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-plus text-success fa-3x mb-3"></i>
+                            <h5>Tambah Component</h5>
+                            <p>Integrasikan modal, carousel, atau accordion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>🚀 Next Steps untuk Portfolio:</strong><br>
+                1. Tambahkan <strong>modal</strong> untuk detail project<br>
+                2. Buat <strong>carousel</strong> untuk showcase gambar<br>
+                3. Pakai <strong>progress bars</strong> untuk skill level<br>
+                4. Integrasikan <strong>contact form</strong> yang cantik
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <div class="container">
+                <p class="mb-0">
+                    <i class="fas fa-code text-primary me-2"></i>
+                    Bootstrap Tutorial untuk Munirudin - Happy Coding! 🚀
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Add some interactive demo
+        console.log('🎉 Bootstrap Tutorial loaded! Selamat belajar, Munirudin!');
+    </script>
+</body>
+</html>
