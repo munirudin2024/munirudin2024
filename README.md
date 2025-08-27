@@ -171,3 +171,161 @@ https://github.com/anuraghazra/github-readme-stats
 ---
 
 **_Ini adalah base operasi-ku. Persiapan untuk misi berikutnya..._**
+
+
+﻿@page
+@model IndexModel
+@{
+    Layout = null;   // gunakan full page tanpa _Layout
+}
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Munirudin</title>
+
+    <!-- CDN (biar cepat di Codespaces) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary:#2563eb; --accent:#06b6d4; --dark:#1e293b; --light:#f8fafc;}
+        html{scroll-behavior:smooth}
+        body{font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--dark);background:var(--light)}
+        .hero{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:120px 0 80px}
+        .hero h1{font-size:3rem;font-weight:700}.hero p{font-size:1.25rem}
+        .btn-custom{background:var(--accent);border:none;padding:.75rem 2rem;border-radius:50px;font-weight:600}
+        .section{padding:80px 0}.card{transition:.3s}.card:hover{transform:translateY(-5px)}
+        .tech-badge{display:inline-block;background:#e0f2fe;color:#0277bd;padding:.25rem .75rem;border-radius:999px;font-size:.75rem;margin:.15rem}
+        footer{background:#0f172a;color:#fff;text-align:center;padding:2rem 0}
+    </style>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="#"><i class="fas fa-code me-2"></i>Munirudin</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="container text-center">
+    <h1 class="mb-3">munirudin</h1>
+    <p class="mb-4">ASP.NET • DBMS</p>
+    <a href="#contact" class="btn btn-custom me-2"><i class="fas fa-envelope me-1"></i>Hubungi</a>
+    <a href="#projects" class="btn btn-outline-light"><i class="fas fa-eye me-1"></i>Proyek</a>
+  </div>
+</section>
+
+<!-- ===== TENTANG ===== -->
+<section id="about" class="section bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Tentang Saya</h2>
+    <p class="text-center col-lg-8 mx-auto">
+      Saya adalah Full-Stack Developer yang fokus pada solusi berbasis web menggunakan ASP.NET Core, Node.js, React, dan PostgreSQL.  
+      Suka belajar teknologi baru dan berbagi ilmu di komunitas.
+    </p>
+  </div>
+</section>
+
+<!-- ===== PROYEK ===== -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="text-center mb-4">Proyek Unggulan</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Sistem ERP Modern</h5>
+            <p class="card-text">Modul inventory, HR, finance. ASP.NET Core + PostgreSQL + React.</p>
+            <div class="mb-2">
+              <span class="tech-badge">ASP.NET Core</span>
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">React</span>
+            </div>
+            <a href="https://github.com/munirudin/ERP-System" target="_blank" class="btn btn-sm btn-outline-primary"><i class="fab fa-github me-1"></i>GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">API Gateway</h5>
+            <p class="card-text">Micro-services gateway dengan JWT, rate-limit, load-balancing. Node.js + Express.</p>
+            <div class="mb-2">
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Express</span>
+              <span class="tech-badge">JWT</span>
+            </div>
+            <a href="https://github.com/munirudin/api-gateway" target="_blank" class="btn btn-sm btn-outline-primary"><i class="fab fa-github me-1"></i>GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Platform E-Commerce</h5>
+            <p class="card-text">Full-stack e-commerce dengan Stripe & real-time stock. ASP.NET MVC + MySQL.</p>
+            <div class="mb-2">
+              <span class="tech-badge">C#</span>
+              <span class="tech-badge">ASP.NET MVC</span>
+              <span class="tech-badge">MySQL</span>
+            </div>
+            <a href="https://github.com/munirudin/ecommerce-platform" target="_blank" class="btn btn-sm btn-outline-primary"><i class="fab fa-github me-1"></i>GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KEAHLIAN ===== -->
+<section id="skills" class="section bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Tech Stack</h2>
+    <div class="row text-center g-3">
+      <div class="col-6 col-md-3"><i class="fab fa-microsoft fa-3x text-primary mb-2"></i><div>ASP.NET Core</div></div>
+      <div class="col-6 col-md-3"><i class="fab fa-node-js fa-3x text-success mb-2"></i><div>Node.js</div></div>
+      <div class="col-6 col-md-3"><i class="fab fa-react fa-3x text-info mb-2"></i><div>React</div></div>
+      <div class="col-6 col-md-3"><i class="fas fa-database fa-3x text-warning mb-2"></i><div>PostgreSQL</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KONTAK ===== -->
+<section id="contact" class="section bg-dark text-white">
+  <div class="container text-center">
+    <h2 class="mb-4">Hubungi Saya</h2>
+    <p><i class="fas fa-envelope me-2"></i>muhammadmunirudin26@gmail.com</p>
+    <p><i class="fas fa-phone me-2"></i>+62 813-3769-4488</p>
+    <div>
+      <a href="https://github.com/munirudin" class="text-white me-3" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://linkedin.com/in/munirudin" class="text-white me-3" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://wa.me/6281337694488" class="text-white" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 munirudin
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
