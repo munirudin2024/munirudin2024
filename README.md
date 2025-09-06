@@ -24,7 +24,7 @@
 <!-- ===== TECH ARSENAL ===== -->
 <h2 align="center"></h2>
 <p align="center">
-  <img src="![Bitcoin](https://img.shields.io/badge/bitcoin-2F3134?style=for-the-badge&logo=bitcoin&logoColor=white)"/>
+  <img src="https://img.shields.io/badge/bitcoin-2F3134?style=for-the-badge&logo=bitcoin&logoColor=white"/>
 
 <h2 align="center"></h2>
 <p align="center">
