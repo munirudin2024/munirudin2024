@@ -1,6 +1,6 @@
 <!-- ===== CYBERPUNK TERMINAL WELCOME ===== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=selamat%20datang%20di%20portfolio20%ku&fontSize=50&fontColor=00ffff&animation=fadeIn" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=selamat%20datang%20&fontSize=50&fontColor=00ffff&animation=fadeIn" alt="Header"/>
 </p>
 
 <h1 align="center">
