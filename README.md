@@ -19,14 +19,25 @@
  -->
 
  ---
-
-<!-- ===== TECH ARSENAL ===== -->
+ 
 <!-- ===== TECH ARSENAL ===== -->
 <h2 align="center"></h2>
 <p align="center">
   <img src="https://img.shields.io/badge/bitcoin-2F3134?style=for-the-badge&logo=bitcoin&logoColor=white"/>
-![Bitcoin](https://img.shields.io/badge/bitcoin-2F3134?style=for-the-badge&logo=bitcoin&logoColor=white)
+  
+<h2 align="center"></h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white"/>
 
+<h2 align="center"></h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"/>
+  <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"/>
+ 
+<h2 align="center"></h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/octopus%20deploy-0D80D8?style=for-the-badge&logo=octopusdeploy&logoColor=white"/>
+  
 <h2 align="center"></h2>
 <p align="center">
   <img src=""/>
