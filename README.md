@@ -16,8 +16,7 @@
  <!-- 
   <img src="https://img.shields.io/badge/OS-Arch%20Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white"/>
 </p>
- --> 
----
+ -->
 
 <!-- ===== TECH ARSENAL ===== -->
 <h2 align="center">⚙️ skidipupup</h2>
