@@ -13,9 +13,10 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=munirudin2024&label=Profile%20Views&style=flat-square&color=00ffff" alt="Views"/>
   <img src="https://img.shields.io/badge/Status-Online-00ff00?style=flat-square&logo=hackthebox&logoColor=white"/>
+ <!-- 
   <img src="https://img.shields.io/badge/OS-Arch%20Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white"/>
 </p>
-
+ --> 
 ---
 
 <!-- ===== TECH ARSENAL ===== -->
