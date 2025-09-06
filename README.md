@@ -15,34 +15,30 @@
   <img src="https://img.shields.io/badge/Status-Online-00ff00?style=flat-square&logo=hackthebox&logoColor=white"/>
  <!-- 
   <img src="https://img.shields.io/badge/OS-Arch%20Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white"/>
-</p>
  -->
+</p>
 
  ---
  
-<!-- ===== TECH ARSENAL ===== -->
-<h2 align="center"></h2>
+<!-- ===== blockchain ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/bitcoin-2F3134?style=for-the-badge&logo=bitcoin&logoColor=white"/>
-  
-<h2 align="center"></h2>
+</p>
+<!-- ===== browser ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white"/>
-
-<h2 align="center"></h2>
+</p>
+<!-- =====  ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"/>
   <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"/>
- 
-<h2 align="center"></h2>
+</p>
+<!-- =====  ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/octopus%20deploy-0D80D8?style=for-the-badge&logo=octopusdeploy&logoColor=white"/>
-  
-<h2 align="center"></h2>
+</p>
+<!-- =====  ===== -->
 <p align="center">
-  <img src=""/>
-  <img src=""/>
-  <img src=""/>
   <img src=""/>
   <img src=""/>
 </p>
