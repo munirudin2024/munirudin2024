@@ -18,6 +18,8 @@
 </p>
  -->
 
+ ---
+
 <!-- ===== TECH ARSENAL ===== -->
 <h2 align="center">⚙️</h2>
 <p align="center">
