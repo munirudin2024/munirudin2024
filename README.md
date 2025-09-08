@@ -19,6 +19,49 @@
 </p>
 
  ---
+
+
+*Blockchain*
+<p align="center">
+<img src="(tautan tidak tersedia)"/>
+</p>
+
+*Browser*
+<p align="center">
+<img src="(tautan tidak tersedia)"/>
+</p>
+
+*IDE*
+<p align="center">
+<img src="(tautan tidak tersedia)"/>
+<img src="(tautan tidak tersedia)"/>
+<!-- blitz tidak memiliki logo resmi, jadi kita gunakan logo lain -->
+<img src="(tautan tidak tersedia)"/>
+</p>
+
+*Runtime*
+<p align="center">
+<img src="(tautan tidak tersedia)"/>
+<img src="(tautan tidak tersedia)"/>
+</p>
+
+*CI/CD*
+<p align="center">
+<img src="(tautan tidak tersedia)"/>
+<img src="(tautan tidak tersedia)"/>
+</p>
+
+*Deployment*
+<p align="center">
+<img src="(tautan tidak tersedia)"/>
+</p>
+
+*Storage*
+<p align="center">
+<img src="(tautan tidak tersedia)"/>
+<img src="(tautan tidak tersedia)"/>
+</p>
+
  
 <!-- ===== blockchain ===== -->
 <p align="center">
@@ -33,6 +76,7 @@
   <img src="https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"/>
   <img src="https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/octopus%20deploy-0D80D8?style=for-the-badge&logo=octopusdeploy&logoColor=white"/>
@@ -42,6 +86,7 @@
   <img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"/>
   <img src="https://img.shields.io/badge/OneDrive-0078D4.svg?style=for-the-badge&logo=microsoftonedrive&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
@@ -49,17 +94,20 @@
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"/>
 <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/GitBook-%23000000.svg?style=for-the-badge&logo=gitbook&logoColor=white"/>
@@ -72,6 +120,7 @@
 <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/>
 <img src="https://img.shields.io/badge/GooglePay-%233780F1.svg?style=for-the-badge&logo=Google-Pay&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"/>
@@ -93,6 +142,7 @@
 <img src="https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white"/>
@@ -100,7 +150,8 @@
 <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
 <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
-</p>p>
+</p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/Atom-%2366595C.svg?style=for-the-badge&logo=atom&logoColor=white"/>
@@ -112,6 +163,7 @@
 <img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"/>
 <img src="https://img.shields.io/badge/CodePen-white?style=for-the-badge&logo=codepen&logoColor=black"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/>
@@ -129,6 +181,7 @@
 <img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white"/>
 <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
@@ -142,6 +195,7 @@
 <p align="center">
 <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
@@ -153,6 +207,7 @@
 <img src="https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 <img src="https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -162,11 +217,13 @@
 <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"/>
 <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/Samsung-%231428A0.svg?style=for-the-badge&logo=samsung&logoColor=white"/>
 <img src="https://img.shields.io/badge/Xiaomi-%23FF6900.svg?style=for-the-badge&logo=xiaomi&logoColor=white"/>
 </p>
+
 <!-- =====  ===== -->
 <p align="center">
 <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
@@ -176,7 +233,6 @@
 <p align="center">
 <img src="https://img.shields.io/badge/Freelancer-29B2FE?style=for-the-badge&logo=Freelancer&logoColor=white"/>
 </p>
----
 
 <!-- ===== REAL-TIME STATS MATRIX ===== -->
 <h2 align="center">📊 Live Data Stream</h2>
