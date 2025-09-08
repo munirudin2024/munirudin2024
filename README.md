@@ -21,48 +21,6 @@
  ---
 
 
-*Blockchain*
-<p align="center">
-<img src="(tautan tidak tersedia)"/>
-</p>
-
-*Browser*
-<p align="center">
-<img src="(tautan tidak tersedia)"/>
-</p>
-
-*IDE*
-<p align="center">
-<img src="(tautan tidak tersedia)"/>
-<img src="(tautan tidak tersedia)"/>
-<!-- blitz tidak memiliki logo resmi, jadi kita gunakan logo lain -->
-<img src="(tautan tidak tersedia)"/>
-</p>
-
-*Runtime*
-<p align="center">
-<img src="(tautan tidak tersedia)"/>
-<img src="(tautan tidak tersedia)"/>
-</p>
-
-*CI/CD*
-<p align="center">
-<img src="(tautan tidak tersedia)"/>
-<img src="(tautan tidak tersedia)"/>
-</p>
-
-*Deployment*
-<p align="center">
-<img src="(tautan tidak tersedia)"/>
-</p>
-
-*Storage*
-<p align="center">
-<img src="(tautan tidak tersedia)"/>
-<img src="(tautan tidak tersedia)"/>
-</p>
-
- 
 <!-- ===== blockchain ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/bitcoin-2F3134?style=for-the-badge&logo=bitcoin&logoColor=white"/>
