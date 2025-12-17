@@ -7,16 +7,9 @@
 </h2>
 <br>
 
-<h3 align="center">📈 DEVICE PERFORMANCE</h3>
-<table align="center" style="width:100%; border-spacing: 15px;">
-  <tr>
-    <td align="center" style="border: 2px solid #4CAF50; border-radius: 15px; padding: 15px; background-color: #E8F5E9;">
-      <img src="https://github-readme-stats.vercel.app/api?username=munirudin2024&show_icons=true&theme=gotham&hide_border=true&include_all_commits=true&count_private=true&line_height=25&title_color=4CAF50&icon_color=4CAF50&text_color=000000" alt="GitHub Stats"/>
-    </td>
-  </tr>
-</table>
 
-<h3 align="center">🛠️ APPS & FRAMEWORKS INSTALLED</h3>
+
+<h3 align="center">code</h3>
 
 <table align="center" style="width:100%; border-spacing: 15px;">
   <tr>
@@ -36,11 +29,6 @@
       <p>
         <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"/>
         <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-        <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/>
-        <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white"/>
-      </p>
-    </td>
   </tr>
 </table>
 
