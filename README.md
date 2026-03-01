@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Muhammad%20Munirudin&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Web%20App%20Specialist&descAlignY=55&descSize=18" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Muhammad%20Munirudin&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%&descAlignY=55&descSize=18" alt="Header"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=2E9EFF&center=true&vCenter=true&width=600&lines=Hello+World!+👋;Full+Stack+Developer+💻;Web+Application+Specialist+🌐;Universitas+Siber+Asia+🎓;Always+Learning+New+Things+🚀;Let's+Build+Something+Amazing!+✨" alt="Typing Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=2E9EFF&center=true&vCenter=true&width=600&lines=Sistem+Informasi;Universitas+Siber+Asia+" alt="Typing Animation"/>
 </p>
 
 <div align="center">
@@ -16,7 +16,7 @@
 
 <br>
 
-## 👨‍💻 About Me
+## tentang saya
 
 ```typescript
 const munirudin = {
@@ -28,10 +28,10 @@ const munirudin = {
     currentFocus: ["Web Applications", "Full Stack Development", "System Architecture"],
     
     dailyRoutine: {
-        morning: "💼 Kerja & Produktif",
-        afternoon: "😴 Istirahat & Tidur Siang",
-        evening: "🦀 Belajar Rust Programming",
-        night: "🎮 Main Mobile Legends"
+        morning: "Kerja",
+        afternoon: "Istirahat",
+        evening: "belajar rust",
+        night: "Main Mobile Legends"
     },
     
     funFact: "Kalau ada bug, restart dulu. Kalau masih error, baru debug! 🤣"
@@ -40,10 +40,10 @@ const munirudin = {
 
 <br>
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Tools 
 
 <details open>
-<summary><b>⚙️ Core Languages</b></summary>
+<summary ><b>⚙️ Core Languages</b></summary>
 <br>
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
