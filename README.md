@@ -1,11 +1,11 @@
 <div align="center">
   <!-- HEADER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Muhammad%20Munirudin&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=%F0%9F%92%BB%20Full%20Stack%20Developer&descAlignY=55&descSize=24" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Muhammad%20Munirudin&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&descAlignY=55&descSize=24" alt="Header"/>
 </div>
 
 <div align="center">
   <!-- TYPING ANIMATION -->
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=34&pause=1000&color=F0F6FC&center=true&vCenter=true&width=750&multiline=true&repeat=true&cursorChar=█&lines=👨‍💻%20Full%20Stack%20Developer;🎓%20Sistem%20Informasi;🏛️%20Universitas%20Siber%20Asia;⚡%20Crafting%20Digital%20Solutions" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=34&pause=1000&color=F0F6FC&center=true&vCenter=true&width=750&multiline=true&repeat=true&cursorChar=█&lines=🎓%20Sistem%20Informasi;" alt="Typing SVG"/>
 </div>
 
 <br/>
@@ -22,27 +22,17 @@
 </div>
 
 <!-- SKILLS -->
-## 🛠️ **Tech Stack**
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,laravel,vue,tailwind,bootstrap,docker,aws,git,postgres,redis,mongodb" alt="Skills" width="700"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,git,postgres,rust" alt="Skills" width="700"/>
 </div>
 
 <!-- SOCIAL -->
-## 📫 **Connect With Me**
-
 <div align="center" style="margin: 2rem 0;">
   <a href="https://github.com/munirudin2024">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
   <a href="https://linkedin.com/in/munirudin2024">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:munirudin@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://wa.me/628xxxxxxxxx">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
   </a>
 </div>
 
