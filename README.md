@@ -1,11 +1,11 @@
 <div align="center">
   <!-- HEADER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Muhammad%20Munirudin&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&descAlignY=55&descSize=24" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&descAlignY=55&descSize=24" alt="Header"/>
 </div>
 
 <div align="center">
   <!-- TYPING ANIMATION -->
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=34&pause=1000&color=F0F6FC&center=true&vCenter=true&width=750&multiline=true&repeat=true&cursorChar=█&lines=🎓%20Sistem%20Informasi;" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=700&size=34&pause=1000&color=F0F6FC&center=true&vCenter=true&width=750&multiline=true&repeat=true&cursorChar=█&lines=%20muhammad%20munirudin;" alt="Typing SVG"/>
 </div>
 
 <br/>
@@ -23,32 +23,12 @@
 
 <!-- SKILLS -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,git,postgres,rust" alt="Skills" width="700"/>
-</div>
-
-<!-- SOCIAL -->
-<div align="center" style="margin: 2rem 0;">
-  <a href="https://github.com/munirudin2024">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://linkedin.com/in/munirudin2024">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</div>
-
-<!-- METRICS -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=munirudin2024&label=Profile%20Views&color=0d1117&style=flat-square&labelColor=5865F2"/>
-  <img src="https://img.shields.io/github/followers/munirudin2024?style=flat-square&color=181717&labelColor=5865F2&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/github/stars/munirudin2024?style=flat-square&color=181717&labelColor=FAA61A&logo=github&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=go.,git,postgres,rust,c.#" alt="Skills" width="700"/>
 </div>
 
 <!-- FOOTER -->
 <div align="center" style="margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 100%); border-radius: 20px;">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&section=footer&text=Thanks%20for%20visiting!%20⭐&fontSize=28&fontColor=fff&animation=twinkling&fontAlignY=70" alt="Footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&section=footer&text=&fontSize=28&fontColor=fff&animation=twinkling&fontAlignY=70" alt="Footer"/>
   <br/>
   <img src="https://hit.yhype.me/github/profile?user_id=munirudin2024" alt="Hits"/>
-  <p style="color: #8B949E; font-size: 14px; margin-top: 1rem;">
-    <strong>👨‍💻 Built with ❤️ using GitHub</strong>
-  </p>
 </div>
